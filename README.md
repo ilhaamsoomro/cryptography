@@ -19,8 +19,3 @@ The Caesar cipher is one of the simplest and most widely known encryption techni
 ### 5. Playfair Cipher:
 The Playfair cipher is a manual symmetric encryption technique and was the first literal digraph substitution cipher. The algorithm encrypts pairs of letters instead of single letters, which makes it more resistant to frequency analysis attacks. It uses a 5x5 grid of letters constructed from a keyword to perform the encryption and decryption operations.
 
-## Contribution:
-Contributions to this repository are welcome. If you have improvements or additional algorithms you'd like to add, feel free to create a pull request.
-
-## License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
