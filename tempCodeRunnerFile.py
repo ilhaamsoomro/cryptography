@@ -1,0 +1,1 @@
+print("Transposition grid:  ", tg)

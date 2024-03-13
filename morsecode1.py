@@ -1,12 +1,3 @@
-morse_code = {
-    'a': '.-', 'b': '-...', 'c': '-.-.', 'd': '-..', 'e': '.', 'f': '..-.', 'g': '--.',
-    'h': '....', 'i': '..', 'j': '.---', 'k': '-.-', 'l': '.-..', 'm': '--', 'n': '-.',
-    'o': '---', 'p': '.--.', 'q': '--.-', 'r': '.-.', 's': '...', 't': '-', 'u': '..-',
-    'v': '...-', 'w': '.--', 'x': '-..-', 'y': '-.--', 'z': '--..',
-    '0': '-----', '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
-    '6': '-....', '7': '--...', '8': '---..', '9': '----.'
-}
-
 def encrypt(pt):
     code = ''
     pt = pt.lower()
@@ -34,12 +25,20 @@ def decrypt(pt):
             temp += charac
     return code
 
-pt = input("Enter plaintext: ")
-choice = input("Type E for Encryption and D for Decryption: ")
+morse_code = {
+    '0': '-----', '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
+    '6': '-....', '7': '--...', '8': '---..', '9': '----.',
+    'a': '.-', 'b': '-...', 'c': '-.-.', 'd': '-..', 'e': '.', 'f': '..-.', 'g': '--.',
+    'h': '....', 'i': '..', 'j': '.---', 'k': '-.-', 'l': '.-..', 'm': '--', 'n': '-.',
+    'o': '---', 'p': '.--.', 'q': '--.-', 'r': '.-.', 's': '...', 't': '-', 'u': '..-',
+    'v': '...-', 'w': '.--', 'x': '-..-', 'y': '-.--', 'z': '--..'
+}
 
-if choice.upper() == 'E':
+pt = input("Enter plaintext: ")
+choice = input("Type 1 for Encryption and 2 for Decryption: ")
+if choice == '1':
     encrypted_text = encrypt(pt)
     print("Encrypted text:", encrypted_text)
-else:
+elif choice == '2':
     decrypted_text = decrypt(pt)
     print("Decrypted text:", decrypted_text)

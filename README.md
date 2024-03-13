@@ -19,3 +19,6 @@ The Caesar cipher is one of the simplest and most widely known encryption techni
 ### 5. Playfair Cipher:
 The Playfair cipher is a manual symmetric encryption technique and was the first literal digraph substitution cipher. The algorithm encrypts pairs of letters instead of single letters, which makes it more resistant to frequency analysis attacks. It uses a 5x5 grid of letters constructed from a keyword to perform the encryption and decryption operations.
 
+### 6. Rail Fence Cipher:
+The Rail Fence cipher, or Zigzag cipher, rearranges plaintext characters in a zigzag pattern across multiple "rails" of an imaginary fence. The ciphertext is then read off in a specific order. This simple transposition technique offers a basic level of encryption.
+
