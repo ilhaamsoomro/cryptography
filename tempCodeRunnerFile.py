@@ -1,1 +1,0 @@
-print("Transposition grid:  ", tg)
