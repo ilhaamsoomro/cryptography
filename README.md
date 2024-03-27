@@ -22,3 +22,6 @@ The Playfair cipher is a manual symmetric encryption technique and was the first
 ### 6. Rail Fence Cipher:
 The Rail Fence cipher, or Zigzag cipher, rearranges plaintext characters in a zigzag pattern across multiple "rails" of an imaginary fence. The ciphertext is then read off in a specific order. This simple transposition technique offers a basic level of encryption.
 
+### 7. Columnar Transposition Cipher:
+The Columnar Transposition Cipher rearranges plaintext characters based on a key-defined column order. It involves writing the plaintext into a grid and then reading it out vertically to produce the ciphertext. While simple to implement, its security relies on the key's unpredictability.
+
